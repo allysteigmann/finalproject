@@ -1,4 +1,4 @@
-// JavaScript for TP5
+// JavaScript for final project
 
 
 // function to load a file from the URL "fromFile" into the object identified by "whereTo"
@@ -84,45 +84,45 @@ BaconFrittata = new Recipe(
   "frittata-equipment.html",
   "frittata-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+BreakfastScramble = new Recipe(
+  "Breakfast Scramble",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2020/09/Veggie-Breakfast-Scramble-007.jpg",
+  "scramble-ingredients.html",
+  "scramble-equipment.html",
+  "scramble-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+PeanutButterOatmeal = new Recipe(
+  "Peanut Butter Oatmeal",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2021/01/Peanut-Butter-Oatmeal-013.jpg",
+  "oatmeal-ingredients.html",
+  "oatmeal-equipment.html",
+  "oatmeal-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+YogurtParfait = new Recipe(
+  "YogurtParfait",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2022/01/Yogurt-Parfait-015.jpg",
+  "parfait-ingredients.html",
+  "parfait-equipment.html",
+  "parfait-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+FriedEggs = new Recipe(
+  "Fried Eggs",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2020/12/How-to-Fry-an-Egg-075.jpg",
+  "eggs-ingredients.html",
+  "eggs-equipment.html",
+  "eggs-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+CottageCheeseBreakfastBowl = new Recipe(
+  "Cottage Cheese Breakfast Bowl",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2022/01/Cottage-Cheese-Breakfast-004.jpg",
+  "cottage-ingredients.html",
+  "cottage-equipment.html",
+  "cottage-directions.html", );
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
@@ -188,23 +188,23 @@ window.onload = function() {
   }
   
   document.querySelector("#sixthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    BreakfastScramble.displayRecipe();
   }
   
   document.querySelector("#seventhRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    PeanutButterOatmeal.displayRecipe();
   }
   
   document.querySelector("#eighthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    YogurtParfait.displayRecipe();
   }
   
   document.querySelector("#ninthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    FriedEggs.displayRecipe();
   }
   
   document.querySelector("#tenthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    CottageCheeseBreakfastBowl.displayRecipe();
   }
   
   document.querySelector("#eleventhRecipe").onclick = function() {
