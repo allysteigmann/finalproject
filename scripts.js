@@ -124,45 +124,45 @@ CottageCheeseBreakfastBowl = new Recipe(
   "cottage-equipment.html",
   "cottage-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+AlmondButterToast = new Recipe(
+  "Almond Butter Toast",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2020/01/Homemade-Bread-016.jpg",
+  "toast-ingredients.html",
+  "toast-equipment.html",
+  "toast-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+RicottaToast = new Recipe(
+  "Ricotta Toast",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2022/01/Ricotta-Toast-010-1.jpg",
+  "ricotta-ingredients.html",
+  "ricotta-equipment.html",
+  "ricotta-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+ClassicOmelette = new Recipe(
+  "Classic Omelette",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2021/02/Omelette-007.jpg",
+  "classic-ingredients.html",
+  "classic-equipment.html",
+  "classic-directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+Granola = new Recipe(
+  "Granola",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2019/03/Planet-Oat-Granola-030.jpg",
+  "granola-ingredients.html",
+  "granola.equipment.html",
+  "granola.directions.html", );
 
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
+BreakfastQuesadilla = new Recipe(
+  "Breakfast Quesadilla",
   "Ally Steigmann",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
+  "https://www.acouplecooks.com/wp-content/uploads/2021/03/Breakfast-Quesadilla-010.jpg",
+  "quesadilla-ingredients.html",
+  "quesadilla-equipment.html",
+  "quesadilla-directions.html", );
 
 
 window.onload = function() {
@@ -208,23 +208,23 @@ window.onload = function() {
   }
   
   document.querySelector("#eleventhRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    AlmondButterToast.displayRecipe();
   }
   
   document.querySelector("#twelvthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    RicottaToast.displayRecipe();
   }
   
   document.querySelector("#thirteenthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    ClassicOmelette.displayRecipe();
   }
   
   document.querySelector("#fourteenthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    Granola.displayRecipe();
   }
   
   document.querySelector("#fifteenthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    BreakfastQuesadilla.displayRecipe();
   }
 
 
