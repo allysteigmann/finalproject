@@ -114,8 +114,7 @@ div#titleBanner {
   position: relative;
   left: 2rem;
   color: #ffffff;
-  font-size: 75%;
-  
+  font-size: 75%; 
 }
 
 #directions {
@@ -128,7 +127,31 @@ div#titleBanner {
  
 }
 
+/* target for directions list items*/
+
+#directions li {
+  font-family: 'Francois One', sans-serif;
+  text-decoration: none;
+  position: relative;
+  left: 2rem;
+  color: #ffffff;
+  font-size: 75%;
+ 
+}
+
 #equipment {
+  font-family: 'Francois One', sans-serif;
+  text-decoration: none;
+  position: relative;
+  left: 3rem;
+  color: #ffffff;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  font-size: 75%;
+}
+
+/* target for equipment list items*/
+#equipment li {
   font-family: 'Francois One', sans-serif;
   text-decoration: none;
   position: relative;

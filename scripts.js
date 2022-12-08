@@ -48,21 +48,45 @@ function Recipe(recipeName, contributorName, imageURL, ingredientsURL, equipment
 
 }
 
-HalsWineMustard = new Recipe(
-  "Hal's Wine Mustard", "Ally Steigmann", "https://images.unsplash.com/photo-1578129377420-4795675e892e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80",
+ChiaCherrySmoothie = new Recipe(
+  "Chia Cherry Smoothie", "Ally Steigmann", "https://www.harryanddavid.com/blog/wp-content/uploads/2017/06/feat-cherry-smoothie.jpg",
   "ingredients.html",
   "equipment.html",
   "directions.html");
 
-LemonBars = new Recipe(
-  "Lemon Bars", "Coby", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYC2ZagQ1zNJJT8azRQQGNa5IGaBk5ZR-ag&usqp=CAU",
-  "lemon-ingredients.html",
-  "lemon-equipment.html",
-  "lemon-directions.html");
+IrishCoffee = new Recipe(
+  "Irish Coffee", "Ally Steigmann", "https://www.harryanddavid.com/blog/wp-content/uploads/2018/12/Irish-Whiskey-Coffee.jpg",
+  "irish-ingredients.html",
+  "irish-equipment.html",
+  "irish-directions.html");
+
+ConfettiPancakes = new Recipe(
+  "Confetti Pancakes",
+  "Ally Steigmann",
+  "https://www.harryanddavid.com/blog/wp-content/uploads/2021/08/confetti-pancakes-closeup.jpg",
+  "pancakes-ingredients.html",
+  "pancakes-equipment.html",
+  "pancakes-directions.html", );
+
+MiniBreakfastSandwich = new Recipe(
+  "Mini Breakfast Sandwich",
+  "Ally Steigmann",
+  "https://www.harryanddavid.com/blog/wp-content/uploads/2021/04/Curtis-Stone-Breakfast-Sandwich.jpg",
+  "sandwich-ingredients.html",
+  "sandwich-equipment.html",
+  "sandwich-directions.html", );
+
+BaconFrittata = new Recipe(
+  "Bacon Frittata",
+  "Ally Steigmann",
+  "https://www.harryanddavid.com/blog/wp-content/uploads/2022/05/frittata-hero.jpg",
+  "frittata-ingredients.html",
+  "frittata-equipment.html",
+  "frittata-directions.html", );
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -70,7 +94,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -78,7 +102,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -86,7 +110,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -94,7 +118,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -102,7 +126,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -110,7 +134,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -118,7 +142,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -126,7 +150,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -134,31 +158,7 @@ GoodOldfashionedPancakes = new Recipe(
 
 GoodOldfashionedPancakes = new Recipe(
   "Good Old fashioned Pancakes",
-  "Maddy",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
-
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
-  "Maddy",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
-
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
-  "Maddy",
-  "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
-  "pancakes-ingredients.html",
-  "pancakes-equipment.html",
-  "pancakes-directions.html", );
-
-GoodOldfashionedPancakes = new Recipe(
-  "Good Old fashioned Pancakes",
-  "Maddy",
+  "Ally Steigmann",
   "https://images.unsplash.com/photo-1590137876181-2a5a7e340308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
   "pancakes-ingredients.html",
   "pancakes-equipment.html",
@@ -168,23 +168,23 @@ GoodOldfashionedPancakes = new Recipe(
 window.onload = function() {
 
   document.querySelector("#firstRecipe").onclick = function() {
-    HalsWineMustard.displayRecipe();
+    ChiaCherrySmoothie.displayRecipe();
   }
 
   document.querySelector("#secondRecipe").onclick = function() {
-    LemonBars.displayRecipe();
+    IrishCoffee.displayRecipe();
   }
 
   document.querySelector("#thirdRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    ConfettiPancakes.displayRecipe();
   }
 
   document.querySelector("#fourthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    MiniBreakfastSandwich.displayRecipe();
   }
   
   document.querySelector("#fifthRecipe").onclick = function() {
-    GoodOldfashionedPancakes.displayRecipe();
+    BaconFrittata.displayRecipe();
   }
   
   document.querySelector("#sixthRecipe").onclick = function() {
